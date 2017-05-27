@@ -1,0 +1,15 @@
+name: TrollAdmin
+description: Troll your players!
+author: BouncyJeffer
+version: 1.0.0
+api: [3.0.0, 3.0.0-ALPHA5]
+main: BouncyJeffer\troll
+commands:
+ troll:
+  description: Main troll command
+  usage: /troll
+  permission: trolladmin
+permissions:
+ trolladmin:
+  description: Permission to use /troll
+  default: false
